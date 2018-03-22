@@ -20,6 +20,10 @@ table#hnmain {
   color: white !important;
 }
 
+table#hnmain > tbody > tr:first-child > td {
+  background-color: coral !important;
+}
+
 table#hnmain > tbody > tr:first-child > td > table > tbody > tr:first-child {
   height: 60px !important;
 }
@@ -39,4 +43,20 @@ td.subtext {
 
 td.votelinks {
   padding: 0px 5px 0px 5px !important;
+}
+
+table.itemlist tr:nth-child(even).athing td{
+  background-color: #e5e5e5 !important;
+}
+
+table.itemlist tr:nth-child(odd):not(.athing) td{
+  background-color: #e5e5e5 !important;
+}
+
+table.itemlist {
+  width: 100% !important;
+}
+
+table.itemlist tr.spacer {
+  height: 0px !important;
 }
