@@ -1,0 +1,42 @@
+/*
+CSS for the homepage, https://news.ycombinator.com/
+*/
+
+body {
+  font-family: "Roboto", serif !important;
+}
+
+a.storylink {
+  font-size: 1.1em !important;
+  font-weight: 500 !important;
+}
+
+table#hnmain {
+  width: 98% !important;
+}
+
+.hnname > a:nth-child(1) {
+  font-size: 1.3em !important;
+  color: white !important;
+}
+
+table#hnmain > tbody > tr:first-child > td > table > tbody > tr:first-child {
+  height: 60px !important;
+}
+
+span.pagetop {
+  color: white !important;
+}
+
+span.pagetop > a {
+  color: white !important;
+}
+
+td.subtext {
+  font-size: 0.7em !important;
+  padding-top: 5px !important;
+}
+
+td.votelinks {
+  padding: 0px 5px 0px 5px !important;
+}
