@@ -24,13 +24,18 @@ table#hnmain {
   color: white !important;
 }
 
+.hnname {
+  display: block !important;
+  margin-bottom: 5px !important;
+}
+
 table#hnmain > tbody > tr:first-child > td {
   background-color: coral !important;
 }
 
 table#hnmain > tbody > tr:first-child > td > table > tbody > tr:first-child {
   height: 60px !important;
-  text-align: center !important;  
+  text-align: center !important;
 }
 
 table#hnmain > tbody > tr:first-child > td > table > tbody > tr:first-child > td:first-child {
@@ -90,4 +95,8 @@ table.itemlist {
 
 table.itemlist tr.spacer {
   height: 0px !important;
+}
+
+table.itemlist td {
+  padding: 5px !important;
 }
