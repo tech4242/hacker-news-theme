@@ -1,19 +1,23 @@
 /*
-CSS for the homepage, https://news.ycombinator.com/
+  CSS for the homepage, https://news.ycombinator.com/
+*/
+
+
+/*
+  Body + main table
 */
 
 body {
   font-family: "Roboto", serif !important;
 }
 
-a.storylink {
-  font-size: 1.1em !important;
-  font-weight: 500 !important;
-}
-
 table#hnmain {
   width: 98% !important;
 }
+
+/*
+  Header
+*/
 
 .hnname > a:nth-child(1) {
   font-size: 1.3em !important;
@@ -26,7 +30,25 @@ table#hnmain > tbody > tr:first-child > td {
 
 table#hnmain > tbody > tr:first-child > td > table > tbody > tr:first-child {
   height: 60px !important;
+  text-align: center !important;  
 }
+
+table#hnmain > tbody > tr:first-child > td > table > tbody > tr:first-child > td:first-child {
+  padding-left: 20px !important;
+}
+
+table#hnmain > tbody > tr:first-child > td > table > tbody > tr:first-child > td:nth-child(2) {
+  padding-left: 2px !important;
+}
+
+table#hnmain > tbody > tr:nth-child(2) {
+  height: 0px !important;
+}
+
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > a:nth-child(1) > img:nth-child(1) {
+  display: none !important;
+}
+
 
 span.pagetop {
   color: white !important;
@@ -34,6 +56,15 @@ span.pagetop {
 
 span.pagetop > a {
   color: white !important;
+}
+
+/*
+  Table elements i.e. news items
+*/
+
+a.storylink {
+  font-size: 1.1em !important;
+  font-weight: 500 !important;
 }
 
 td.subtext {
