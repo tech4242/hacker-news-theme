@@ -1,8 +1,12 @@
 # hacker-news-theme
 Bring your own CSS for Hacker News
 
-Currently in a [Motius](https://www.motius.de/en/) theme but more themes coming soon.
+Make a pull request with your own version!
 
-![Hacker News Homepage](screenshots/HackerNews_Homepage.png?raw=true "Standard view")
+## Themes
 
-![Hacker News Subpage](screenshots/HackerNews_Subpage.png?raw=true "Standard view")
+**Main Theme:**
+![Hacker News Homepage](screenshots/HackerNews_main.png?raw=true "Standard view")
+
+**[Motius](https://www.motius.de/en/) Theme:**
+![Hacker News Subpage](screenshots/HackerNews_motius.png?raw=true "Standard view")
