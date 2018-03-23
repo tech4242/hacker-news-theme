@@ -9,10 +9,11 @@
 
 body {
   font-family: "Roboto", serif !important;
+  background-color: #28b9da !important;
 }
 
 table#hnmain {
-  width: 98% !important;
+  width: 99% !important;
 }
 
 /*
@@ -30,7 +31,7 @@ table#hnmain {
 }
 
 table#hnmain > tbody > tr:first-child > td {
-  background-color: coral !important;
+  background-color: #004860 !important;
 }
 
 table#hnmain > tbody > tr:first-child > td > table > tbody > tr:first-child {
