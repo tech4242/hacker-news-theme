@@ -1,4 +1,5 @@
 # hacker-news-theme
+
 Bring your own CSS for Hacker News
 
 Make a pull request with your own version!
@@ -17,3 +18,6 @@ Make a pull request with your own version!
 
 **[Motius](https://www.motius.de/en/) Theme:**
 ![Hacker News Subpage](screenshots/HackerNews_motius.png?raw=true "Standard view")
+
+**Moonlight Theme:**
+![Hacker News Homepage](screenshots/HackerNews_moonlight.png?raw=true "Standard view")
