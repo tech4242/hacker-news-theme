@@ -1,0 +1,150 @@
+/*
+  CSS for the homepage, https://news.ycombinator.com/
+*/
+/*
+  Body + main table
+*/
+body {
+  font-family: "Roboto", serif !important;
+  background-color: #191b28 !important;
+}
+a:visited {
+  color: #c597f9 !important;
+}
+td,
+tr.morespace {
+  background-color: #191b28 !important;
+  color: #191b28 !important;
+}
+a:link,
+span.score,
+span.commtext,
+span.rank,
+td.subtext,
+form,
+p {
+  color: #c8d3f5 !important;
+}
+td.subtext,
+td.subtext > a,
+td.subtext > span,
+td.subtext > span > a {
+  color: #82aaf9 !important;
+}
+
+table#hnmain {
+  width: 95% !important;
+}
+
+/*
+  Header
+*/
+.hnname > a:nth-child(1) {
+  font-size: 1.3em !important;
+  color: #c8d3f5 !important;
+}
+
+.hnname {
+  display: block !important;
+  margin-bottom: 5px !important;
+}
+
+table#hnmain > tbody > tr:first-child > td {
+  background-color: #191b28 !important;
+}
+
+table#hnmain > tbody > tr:first-child > td > table > tbody > tr:first-child {
+  height: 60px !important;
+  text-align: center !important;
+}
+
+table#hnmain
+  > tbody
+  > tr:first-child
+  > td
+  > table
+  > tbody
+  > tr:first-child
+  > td:first-child {
+  padding-left: 20px !important;
+}
+
+table#hnmain
+  > tbody
+  > tr:first-child
+  > td
+  > table
+  > tbody
+  > tr:first-child
+  > td:nth-child(2) {
+  padding-left: 2px !important;
+}
+
+table#hnmain > tbody > tr:nth-child(2) {
+  height: 0px !important;
+}
+
+#hnmain
+  > tbody:nth-child(1)
+  > tr:nth-child(1)
+  > td:nth-child(1)
+  > table:nth-child(1)
+  > tbody:nth-child(1)
+  > tr:nth-child(1)
+  > td:nth-child(1)
+  > a:nth-child(1)
+  > img:nth-child(1) {
+  display: none !important;
+}
+
+span.pagetop {
+  color: #82aaf9 !important;
+}
+
+span.pagetop > a {
+  color: #82aaf9 !important;
+}
+
+/*
+  Table elements i.e. news items
+*/
+a.storylink {
+  font-size: 1.1em !important;
+  font-weight: 500 !important;
+}
+
+td.subtext {
+  font-size: 0.7em !important;
+  padding-top: 5px !important;
+}
+
+td.votelinks {
+  padding: 0px 5px 0px 5px !important;
+}
+
+table.itemlist tr:nth-child(even).athing td {
+  background-color: #191b28 !important;
+}
+
+table.itemlist tr:nth-child(odd):not(.athing) td {
+  background-color: #191b28 !important;
+}
+table.itemlist tr:nth-child(odd).athing td {
+  background-color: #1b1d2c !important;
+}
+
+table.itemlist tr:nth-child(even):not(.athing) td {
+  background-color: #1b1d2c !important;
+}
+
+table.itemlist {
+  width: 100% !important;
+}
+
+table.itemlist tr.spacer {
+  height: 0px !important;
+}
+
+table.itemlist td {
+  padding: 5px !important;
+}
